@@ -30,8 +30,8 @@
 | race_Other | Other | 0: False <br> 1: True |
 | race_Other_type | Type of 'race_Other' ||
 | ethnicity | Ethnicity | 1: Hispanic or Latino <br> 2: Not Hispanic or Latino <br> 3: Unknown or Not Reported |
-| date_consented | Date Consented ||
-| reconsented | Date Reconsented ||
+| date_consented | Date Consented |yyyy-mm-dd|
+| reconsented | Date Reconsented |yyyy-mm-dd|
 | blood | Blood | 1: Up to 5 times per year <br> 2: Once <br> 3: Never |
 | ebc | EBC | 1: Up to 5 times per year <br> 2: Once <br> 3: Never |
 | nasal_cells | Nasal Cells | 1: Up to 5 times per year <br> 2: Once <br> 3: Never | 
@@ -69,14 +69,14 @@
 | freezer_location | Freezer Location | 1: Emory Children's Center (ECC) <br> 2: Hiller Lab at Center for Advanced Pediatrics(CAP) <br> 3: Chantilly Lab (NDH) <br> |
 | aliquot_id | Aliquot ID ||
 | sample_type | Sample Type | 1: Bacterial Isolate <br> 2: Bacterial pellet <br> 3: BAL <br> 4: BAL (with proteinase inhibitor) <br> 5: BAL homogenate <br> 6: Blood: Plasma <br> 7: Blood: Serum <br> 8: Blood: Whole <br> 9: EBC <br> 10: Nasal polyp tissue <br> 11: Nasal Scrape <br> 12: None <br> 13: Sputum, unprocessed/whole <br> 14: Sputum homogenate <br> 15: Sputum supernatant without complete <br> 16: Sputum Supernatant with complete <br> 17: Throat Swab <br> 18: Tracheal Aspirate <br> 19: Micro Purity Plate |
-| collected_during_ogtt | Collected During OGTT | 0: No <br> 1: Yes |
+| collected_during_ogtt | Collected During OGTT | 1: Yes <br> 2: No |
 | ogtt_time_points_Fasting | OGTT Time Points: Fasting | 0: False <br> 1: True |
 | ogtt_time_points_30_minutes | OGTT Time Points: 30 Minutes | 0: False <br> 1: True |
 | ogtt_time_points_60_minutes | OGTT Time Points: 60 Minutes | 0: False <br> 1: True |
 | ogtt_time_points_2_Hours | OGTT Time Points: 2 Hours | 0: False <br> 1: True |
 | ogtt_time_points_Other | OGTT Time Points: Other | 0: False <br> 1: True |
 | other_time_point | Other OGTT Time Point ||
-| paired_samples | Paired Samples | 0: No <br> 1: Yes |
+| paired_samples | Paired Samples | 1: Yes <br> 0: No |
 | paired_samples_collected_Plasma | Paired Samples Collected: Plasma | 0: False <br> 1: True |
 | paired_samples_collected_Serum | Paired Samples Collected: Serum | 0: False <br> 1: True |
 | paired_samples_collected_EBC | Paired Samples Collected: EBC | 0: False <br> 1: True |
@@ -101,7 +101,7 @@
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
 | record_id | Record ID of CFBR patients |
-| collection_date | Collection Date | |
+| collection_date | Collection Date |yyyy-mm-dd |
 | collection_site | Collection Site | 1: ECC <br> 2: Egleston Hospital<br> 3: Emory Adult CF Clinic<br> 4: Emory Children's Center<br> 5: Emory Pediatric CF Clinic <br> 6: EU Hospital<br> 7: Scottish Rite Clinic<br> 8: Scottish Rite Hospital<br> 9: CAP |
 | visit_type | Visit Type | 1:  Clinic <br> 2:  Hospital <br>3:  Procedure <br> 4:  Research Study |
 | crf_age | Age at Collection |  |
@@ -114,12 +114,12 @@
 | specimen_collected_BAL | Specimen Collected is BAL | 0:  False <br>1:  True <br> |
 | specimen_collected_nasual_scrape | Specimen Collected is Nasal Epithelial Cells | 0:  False <br>1:  True <br> |
 | specimen_collected_bronchial_brushings | Specimen Collected is Bronchial Brushings | 0:  False <br>1:  True <br> |
-| time_of_specimen_collectio | Time of Blood Collection |  |
+| time_of_specimen_collection | Time of Blood Collection |  |
 | time_of_sputum_collection | Time of Expectorated Sputum Collection |  |
-| time_of_induced_sputum_col | Time of Induced Sputum Collection |  |
+| time_of_induced_sputum_collection | Time of Induced Sputum Collection |  |
 | time_of_ebc_collection | Time of EBC Collection |  |
 | time_of_bal_collection | Time of BAL Collection |  |
-| time_of_nasal_epithelial_c | Time of Nasal Epithelial Cell Collection |  |
+| time_of_nasal_epithelial_collection | Time of Nasal Epithelial Cell Collection |  |
 | time_of_bronchial_brushing | Time of Bronchial Brushing Sample Collection |  |
 | current_clinical_status | Current Clinical Status <br> Clinically Stable = no increase in symptoms, lung exam at baseline, FEV1 w/ 5% of baseline, no new antibiotic therapy of any kind in response to symptoms or tests, no change in standard CF regimen for +/- 21 days.<br> APE Outpatient = subject is experiencing increase in symptoms and/or drop in lung function 5-10% from baseline; prescribed outpatient oral antibiotics. <br> APE IV Antibiotics = increased symptoms and/or drop in lung function greater than 10% below baseline. Subject is admitted to hospital for IV antibiotic treatment or subject is placed on Home IV antibiotics for treatment of exacerbation. <br> Indeterminate = unable to determine clinical status. Consult physician to determine clinical status. | 1:  Clinically Stable <br> 2:  APE Outpatient <br> 3:  APE IV Antibiotics <br> 4:  Indeterminate  |
 | start_date_of_iv_antibioti | IV Antibiotics Start Date |  |
@@ -136,7 +136,7 @@
 | recent_sputum_micro_other | Other Sputum Microbiology | 0:  False <br> 1:  True  |
 | microbiology_if_other | If other microbiology, specify |  |
 | crf_comments | Comments? |  |
-| crf_complete | Complete? |  |
+| crf_complete | Complete? | 0: Incomplete <br> 1: Unverified <br> 2: Complete|
 
 
 
@@ -145,7 +145,7 @@
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
 | record_id | CF-BR record|  |
-| isolate_id | Identification of Isolates | 1:  Pseudomonas aeruginosa <br> 2:  Stenotrophomonas maltophilia <br>3:  MSSA <br>4:  MRSA <br>5:  Achromobacter xylosoxidans <br>6:  Burkholderia cepacia complex <br>7:  Haemophilus influenzae <br>8:  Aspergillus fumigatus <br>9:  Mycobacterium abscessus (MAB) <br>10: Mycobacterium avium complex (MAC) |
+| isolate_id | Identification of Isolates | 1:  Pseudomonas aeruginosa <br> 2:  Stenotrophomonas maltophilia <br>3:  MSSA <br>4:  MRSA <br>5:  Achromobacter xylosoxidans <br>6:  Burkholderia cepacia complex <br>7:  Haemophilus influenzae <br>8:  Aspergillus fumigatus <br>9:  Mycobacterium abscessus (MAB) <br>10: Mycobacterium avium complex (MAC) <br>11: Other|
 | identification_of_pseudomo_mucoid | Pseudomonas aeruginosa Phenotype:Mucoid | 0:  False <br> 1:  True |
 | identification_of_pseudomo_non_mucoid | Pseudomonas aeruginosa Phenotype: Non-Mucoid | 0:  False <br> 1:  True |
 | identification_of_pseudomo_unknown | Pseudomonas aeruginosa Phenotype:Unknown | 0:  False <br> 1:  True |
