@@ -151,8 +151,8 @@
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
 | patient_id | CF-BR number of patient |
-| survey_date_pac_qol | Constipation Survey date | yyyy-mm-dd |
-| location_pac_qol | Survey location |1- Emory University <br> 2- Augusta University |
+| survey_date_pacqol | Constipation Survey date | yyyy-mm-dd |
+| location_pacqol | Survey location |1- Emory University <br> 2- Augusta University |
 | bloated_pac_qol | Felt bloated to the point of bursting? | 0- Not at all<br /> 1- A little bit<br /> 2- Moderately<br /> 3- Quite a bit<br /> 4- Extremely |
 | heavy_constipation_pac_qol | Felt heavy because of your constipation? | 0- Not at all<br /> 1- A little bit<br /> 2- Moderately<br /> 3- Quite a bit<br /> 4- Extremely |
 | physical_discomfort_pac_qol | Felt any physical discomfort? | 0- None of the time<br /> 1- A little of the time<br /> 2- Some of the time<br /> 3- Most of the time<br /> 4- All of the time |
