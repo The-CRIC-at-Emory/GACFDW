@@ -182,10 +182,10 @@
 | satisfied_time_pac_qol | Satisfied with the time it takes for food to pass through the intestines? | 0- Not at all<br /> 1- A little bit<br /> 2- Moderately<br /> 3- Quite a bit<br /> 4- Extremely |
 | satisfied_treat_pac_qol | Satisfied with your treatment? | 0- Not at all<br /> 1- A little bit<br /> 2- Moderately<br /> 3- Quite a bit<br /> 4- Extremely |
 | completion_pac_qol | Complete? | 0- Incomplete <br /> 1- Unverified <br /> 2- Complete |
-| component1_score_pac_qol | Score for domain: Physical discomfort | |
-| component2_score_pac_qol | Score for domain: Psychosocial discomfort | |
-| component3_score_pac_qol | Score for domain: Worries and concerns | |
-| component4_score_pac_qol | Score for domain: Satisfaction | |
+| mean_physical_discomfort_score | Score for domain: Physical discomfort | |
+| mean_psychosocial_discomfort_score | Score for domain: Psychosocial discomfort | |
+| mean_worry_concern_score | Score for domain: Worries and concerns | |
+| mean_satisfaction_score | Score for domain: Satisfaction | |
 | total_score_pac_qol | Overall score | |
 
 
