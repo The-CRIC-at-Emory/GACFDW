@@ -20,16 +20,15 @@
 | epic_mrn | EPIC MRN# || 
 | powerchart_mrn | Powerchart MRN# || 
 | dob | Date of Birth ||
-| age | Age ||
 | sex | Sex ||
-| race_African_American | Black or African-American | 0: False <br> 1: True |
-| race_Asian_or_Pacific_Islander | Asian | 0: False <br> 1: True |
-| race_Caucasian | White or Caucasian | 0: False <br> 1: True |
-| race_Hispanic | American Indian or Alaska Native | 0: False <br> 1: True |
-| race_Mixed | Native Hawaiian or Other Pacific Islander | 0: False <br> 1: True |
-| race_Unknown | Unknown or Not Reported | 0: False <br> 1: True |
+| race_black_or_african_american | Black or African-American | 0: False <br> 1: True |
+| race_asian | Asian | 0: False <br> 1: True |
+| race_white_or_caucasian | White or Caucasian | 0: False <br> 1: True |
+| race_american_indian_or_alaska_native | American Indian or Alaska Native | 0: False <br> 1: True |
+| race_native_hawaiian_or_other_pacific_islander | Native Hawaiian or Other Pacific Islander | 0: False <br> 1: True |
+| race_unknown_or_not_reported | Unknown or Not Reported | 0: False <br> 1: True |
 | race_Other | Other | 0: False <br> 1: True |
-| race_Other_type | Type of 'race_Other' ||
+| race_Other_type | Type of 'race_Other' if race_Other is True ||
 | ethnicity | Ethnicity | 1: Hispanic or Latino <br> 2: Not Hispanic or Latino <br> 3: Unknown or Not Reported |
 | date_consented | Date Consented |yyyy-mm-dd|
 | reconsented | Date Reconsented |yyyy-mm-dd|
