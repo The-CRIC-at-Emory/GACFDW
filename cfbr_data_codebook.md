@@ -323,4 +323,5 @@
 |ogtt_glu_120 | Glucose (mg/dL) |  |
 |ogtt_ins_120 | Insulin (uIU/mL) |  |
 |ogtt_cpep_120 | C-peptide (ng/mL) |  |
+|ogtt_comments | comments |  |
 |ogtt_complete | Complete? | 0:  Incomplete <br> 1:  Unverified <br> 2:  Complete <br> |
