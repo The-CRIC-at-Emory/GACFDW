@@ -221,7 +221,7 @@
 
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
-| patient_id | CF-BR number of patient |  |
+| cfbr_id | CF-BR number of patient |  |
 | survey_date_bev | Bverage Survey date | yyyy-mm-dd |
 | location_bev | Survey location | 1- Emory University <br> 2- Augusta University  |
 | water_often_bev | Water - How often? |0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day |
