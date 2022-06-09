@@ -258,9 +258,9 @@
 | other_often_bev | Other - How often? | 0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day |
 | other_amt_bev | Other - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
 | completion_bev | complete | \- Incomplete <br />\- Unverified <br />\- Complete |
-| SSB_floz_bev | Average daily sugar swetened beverages (fluid oz) | |
+| SSB_floz_bev | Average daily sugar sweetened beverages (fluid oz) | |
 | SSB_kcal_bev | Average daily calories from sugar swetened beverages  | |
 | SSB_gm_bev | Average daily sugar swetened beverages (grams) | |
-| BEV_floz_bev | Average total beverages (fluid oz) | |
+| BEV_floz_bev | Average daily total beverages (fluid oz) | |
 | BEV_kcal_bev | Average daily calories from total beverages  | |
 | BEV_gm_bev | Average daily total beverages (grams) | |
