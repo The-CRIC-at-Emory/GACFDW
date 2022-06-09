@@ -222,14 +222,14 @@
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
 | patient_id | CF-BR number of patient |  |
-| location_bev | Survey location | 1- Emory University <br> 2- Augusta University  |
 | survey_date_bev | Bverage Survey date | yyyy-mm-dd |
+| location_bev | Survey location | 1- Emory University <br> 2- Augusta University  |
 | water_often_bev | Water - How often? |0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day |
-| water_amount_bev | Water - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
+| water_amt_bev | Water - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
 | juice_often_bev | 100% Fruit Juice - How often? | 0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day |
-| juice_amount_bev | 100% Fruit Juice - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
+| juice_amt_bev | 100% Fruit Juice - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
 | sweet_juice_often_bev | Sweetened Juice Beverage/Drink (fruit ades, lemonade, punch, Sunny Delight) - How often? | 0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day |
-| sweet_juice_amount_bev | Sweetened Juice Beverage/Drink (fruit ades, lemonade, punch, Sunny Delight) - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
+| sweet_juice_amt_bev | Sweetened Juice Beverage/Drink (fruit ades, lemonade, punch, Sunny Delight) - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
 | whole_milk_often_bev | Whole Milk - How often? | 0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day |
 | whole_milk_amt_bev | Whole Milk - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
 | red_fat_milk_often_bev | Reduced Fat Milk (2%) - How often? | 0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day |
@@ -237,30 +237,30 @@
 | fat_free_milk_often_bev | Low Fat/Fat Free Milk (Skim, 1%, Buttermilk, Soymilk) - How often? | 0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day |
 | fat_free_milk_amt_bev | Low Fat/Fat Free Milk (Skim, 1%, Buttermilk, Soymilk) - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
 | soft_drinks_often_bev | Soft Drinks, Regular - How often? | 0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day |
-| soft_drinks_amount_bev | Soft Drinks, Regular - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
+| soft_drinks_amt_bev | Soft Drinks, Regular - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
 | diet_drink_often_bev | Diet Soft Drinks/Artifically Sweetened Drinks (Crystal Light) - How often? | 0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day |
-| diet_drinks_amount_bev | Diet Soft Drinks/Artifically Sweetened Drinks (Crystal Light) - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
+| diet_drinks_amt_bev | Diet Soft Drinks/Artifically Sweetened Drinks (Crystal Light) - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
 | sweet_tea_often_bev | Sweetened Tea - How often? | 0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day |
-| sweet_tea_amount_bev | Sweetened Tea - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
+| sweet_tea_amt_bev | Sweetened Tea - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
 | tea_w_cream_often_bev | Tea or Coffee, with cream and/or sugar (includes non-dairy creamer) - How often? | 0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day |
 | tea_w_cream_amt_bev | Tea or Coffee, with cream and/or sugar (includes non-dairy creamer) - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
 | tea_black_often_bev | Tea or Coffee, black, with/without artificial sweetener (no cream or sugar) - How often? | 0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day |
 | tea_black_amt_bev | Tea or Coffee, black, with/without artificial sweetener (no cream or sugar) - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
 | beer_often_bev | Beer, Ales, Wine Coolers, Non-alcoholic or Light Beer - How often? | 0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day |
-| beer_amount_bev | Beer, Ales, Wine Coolers, Non-alcoholic or Light Beer - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
+| beer_amt_bev | Beer, Ales, Wine Coolers, Non-alcoholic or Light Beer - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
 | liqour_often_bev | Hard Liqour (shots, rum, tequila, etc.) - How often? |0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day  |
 | liqour_amt_bev | Hard Liqour (shots, rum, tequila, etc.) - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
 | wine_often_bev | Wine (red or white) - How often? | 0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day |
-| wine_amount_bev | Wine (red or white) - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
+| wine_amt_bev | Wine (red or white) - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
 | energy_often_bev | Energy or Sports Drinks (Redbull, Rockstar, Gatorade, Powerade, etc.) - How often? | 0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day |
-| energy_amout_bev | Energy or Sports Drinks (Redbull, Rockstar, Gatorade, Powerade, etc.) - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
+| energy_amt_bev | Energy or Sports Drinks (Redbull, Rockstar, Gatorade, Powerade, etc.) - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
 | other_list_bev | Other \- |  |
 | other_often_bev | Other - How often? | 0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day |
 | other_amt_bev | Other - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
 | completion_bev | complete | \- Incomplete <br />\- Unverified <br />\- Complete |
-| SSB_floz_bev | Average daily sugar sweetened beverages (fluid oz) | |
-| SSB_kcal_bev | Average daily calories from sugar sweetened beverages  | |
-| SSB_gm_bev | Average daily sugar sweetened beverages (grams) | |
-| BEV_floz_bev | Average daily total beverages (fluid oz) | |
-| BEV_kcal_bev | Average daily calories from total beverages  | |
-| BEV_gm_bev | Average daily total beverages (grams) | |
+| ssb_floz | Average daily sugar sweetened beverages (fluid oz) | |
+| ssb_kcal | Average daily calories from sugar sweetened beverages  | |
+| ssb_gm | Average daily sugar sweetened beverages (grams) | |
+| bev_floz | Average daily total beverages (fluid oz) | |
+| bev_kcal | Average daily calories from total beverages  | |
+| bev_gm | Average daily total beverages (grams) | |
