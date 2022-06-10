@@ -14,7 +14,7 @@
 
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
-| patient_id | CF-BR number of patient |
+| cfbr_id | CF-BR number of patient |
 | survey_date_pagi | Survey date | yyyy-mm-dd |
 | location_pagi | Survey location | 1- Emory University <br> 2- Augusta University |
 | nausea_pagi | Nausea (feeling sick to your stomach as if you were going to vomit or throw up) | 0- None <br> 1- Very mild <br> 2- Mild <br>3- Moderate <br> 4- Severe <br> 5- Very Severe <br> |
@@ -51,7 +51,7 @@
 
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
-| patient_id | CF-BR number of patient |
+| cfbr_id | CF-BR number of patient |
 | survey_date_sdsc | Survey date | yyyy-mm-dd |
 | location_sdsc | Survey location | 1- Emory University <br> 2- Augusta University |
 | hours_sleep_sdsc | How many hours of sleep does your child get on most nights | 1- 9-11 hours <br> 2- 8-9 hours <br> 3- 7-8 hours <br> 4- 5-7 hours <br> 5- less than 5 hours |
@@ -95,7 +95,7 @@
 
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
-| patient_id | CF-BR number of patient |
+| cfbr_id | CF-BR number of patient |
 | survey_date_psqi | Survey date | yyyy-mm-dd |
 | location_psqi | Survey loction | 1- Emory University <br> 2- Augusta University |
 | usual_bed_time_psqi | During the past month, what time have you usually gone to bed at night |
@@ -150,7 +150,7 @@
 
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
-| patient_id | CF-BR number of patient |
+| cfbr_id | CF-BR number of patient |
 | survey_date_pacqol | Constipation Survey date | yyyy-mm-dd |
 | location_pacqol | Survey location |1- Emory University <br> 2- Augusta University |
 | bloated_pac_qol | Felt bloated to the point of bursting? | 0- Not at all<br /> 1- A little bit<br /> 2- Moderately<br /> 3- Quite a bit<br /> 4- Extremely |
@@ -193,7 +193,7 @@
 
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
-| patient_id | CF-BR number of patient |
+| cfbr_id | CF-BR number of patient |
 | location_pacsym | Survey location |  1- Emory University <br> 2- Augusta University |
 | todays_date_pacsym | todays'date | yyyy-mm-dd |
 | discomfort_abdomen_pacsym | Discomfort in your abdomen |  0- Absent<br /> 1- Mild<br /> 2- Moderate<br /> 3- Severe<br /> 4- Very severe<br /> |
