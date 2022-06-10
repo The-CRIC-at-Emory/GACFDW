@@ -138,7 +138,7 @@
 
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
-| patient_id | CF-BR number of patient |
+| cfbr_id | CF-BR number of patient |
 | survey_date_bsc | Survey date | mm/dd/yyyy |
 | location_bsc | Survey location | 1- Emory University <br> 2- Augusta University |
 | stool_type_bsc | Patient stool type | 0- Type 1<br /> 1- Type 2<br /> 2- Type 3<br /> 3- Type 4<br /> 4- Type 5<br /> 5- Type 6<br /> 6- Type 7 |
