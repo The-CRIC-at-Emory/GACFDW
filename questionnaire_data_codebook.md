@@ -197,7 +197,8 @@
 | survey_date_pacsym | Survey date | yyyy-mm-dd |
 | location_pacsym | Survey location |  1- Emory University <br> 2- Augusta University |
 | discomfort_abdomen_pacsym | Discomfort in your abdomen |  0- Absent<br /> 1- Mild<br /> 2- Moderate<br /> 3- Severe<br /> 4- Very severe<br /> |
-| pain_abdomen_pacsym | Bloating in your abdomen |  0- Absent<br /> 1- Mild<br /> 2- Moderate<br /> 3- Severe<br /> 4- Very severe<br /> |
+| pain_abdomen_pacsym | Pain in your abdomen |  0- Absent<br /> 1- Mild<br /> 2- Moderate<br /> 3- Severe<br /> 4- Very severe<br /> |
+| bloating_abdomen_pacsym | Bloating in your abdomen |  0- Absent<br /> 1- Mild<br /> 2- Moderate<br /> 3- Severe<br /> 4- Very severe<br /> |
 | stomach_cramps_pacsym | Stomach cramps |  0- Absent<br /> 1- Mild<br /> 2- Moderate<br /> 3- Severe<br /> 4- Very severe<br /> |
 | painful_bowel_pacsym | Painful bowel movements |  0- Absent<br /> 1- Mild<br /> 2- Moderate<br /> 3- Severe<br /> 4- Very severe<br /> |
 | rectal_burning_pacsym | Rectal burning during or after a bowel movement |  0- Absent<br /> 1- Mild<br /> 2- Moderate<br /> 3- Severe<br /> 4- Very severe<br /> |
@@ -207,7 +208,6 @@
 | bowel_movement_small_pacsym | Bowel movements that were too small |  0- Absent<br /> 1- Mild<br /> 2- Moderate<br /> 3- Severe<br /> 4- Very severe<br /> |
 | straining_bowel_movement_pacsym | Straining or squeezing to try to pass bowel movements |  0- Absent<br /> 1- Mild<br /> 2- Moderate<br /> 3- Severe<br /> 4- Very severe<br /> |
 | bowel_movement_false_alarm_pacsym | Feeling like you had to pass a bowel movement but you couldn't (false alarm) |  0- Absent<br /> 1- Mild<br /> 2- Moderate<br /> 3- Severe<br /> 4- Very severe<br /> |
-| survey_date_pacsym | Survey Date (auto populates, not seen on public survey) |  0- Absent<br /> 1- Mild<br /> 2- Moderate<br /> 3- Severe<br /> 4- Very severe<br /> |
 | completion_pacsym | Complete |  0-  Incomplete <br /> 1-  Unverified <br /> 2-  Complete |
 | domain_abdominal_pacsym | Score for domain: abdominal symptoms | |
 | domain_rectal_pacsym | Score for domain: rectal symptoms | |
