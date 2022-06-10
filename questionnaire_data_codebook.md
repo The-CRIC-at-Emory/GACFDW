@@ -157,7 +157,7 @@
 | heavy_constipation_pac_qol | Felt heavy because of your constipation? | 0- Not at all<br /> 1- A little bit<br /> 2- Moderately<br /> 3- Quite a bit<br /> 4- Extremely |
 | physical_discomfort_pac_qol | Felt any physical discomfort? | 0- None of the time<br /> 1- A little of the time<br /> 2- Some of the time<br /> 3- Most of the time<br /> 4- All of the time |
 | need_bowel_pac_qol | Felt the need to have a bowel movement but not been able to? | 0- None of the time<br /> 1- A little of the time<br /> 2- Some of the time<br /> 3- Most of the time<br /> 4- All of the time |
-| embarassed_pac_qol | Been embarrassed to be with other people? | 0- None of the time<br /> 1- A little of the time<br /> 2- Some of the time<br /> 3- Most of the time<br /> 4- All of the time |
+| embarrassed_pac_qol | Been embarrassed to be with other people? | 0- None of the time<br /> 1- A little of the time<br /> 2- Some of the time<br /> 3- Most of the time<br /> 4- All of the time |
 | eating_less_pac_qol | Been eating less and less because of not being able to have bowel movements? | 0- None of the time<br /> 1- A little of the time<br /> 2- Some of the time<br /> 3- Most of the time<br /> 4- All of the time |
 | careful_eat_pac_qol | Had to be careful about what you eat? | 0- Not at all<br /> 1- A little bit<br /> 2- Moderately<br /> 3- Quite a bit<br /> 4- Extremely |
 | decreased_app_pac_qol | Had a decreased appetite? | 0- Not at all<br /> 1- A little bit<br /> 2- Moderately<br /> 3- Quite a bit<br /> 4- Extremely |
@@ -182,10 +182,10 @@
 | satisfied_time_pac_qol | Satisfied with the time it takes for food to pass through the intestines? | 0- Not at all<br /> 1- A little bit<br /> 2- Moderately<br /> 3- Quite a bit<br /> 4- Extremely |
 | satisfied_treat_pac_qol | Satisfied with your treatment? | 0- Not at all<br /> 1- A little bit<br /> 2- Moderately<br /> 3- Quite a bit<br /> 4- Extremely |
 | completion_pac_qol | Completion of the 'PAC-QOL' form? | 0- Incomplete <br /> 1- Unverified <br /> 2- Complete |
-| mean_physical_discomfort_score | Score for domain: Physical discomfort | |
-| mean_psychosocial_discomfort_score | Score for domain: Psychosocial discomfort | |
-| mean_worry_concern_score | Score for domain: Worries and concerns | |
-| mean_satisfaction_score | Score for domain: Satisfaction | |
+| mean_phy_dis_pac_qol | Mean score for domain: Physical discomfort | |
+| mean_psy_dis_pac_qol | Mean score for domain: Psychosocial discomfort | |
+| mean_wor_con_pac_qol | Mean score for domain: Worries and concerns | |
+| mean_sat_pac_qol | Mean score for domain: Satisfaction | |
 | total_score_pac_qol | Overall score | |
 
 
