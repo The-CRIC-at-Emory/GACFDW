@@ -37,7 +37,7 @@
 | reflux_day_pagi | Regurgitation of reflux (fluid of liquid from your stomach coming up into your throat) during the day |  0- None <br> 1- Very mild <br> 2- Mild <br>3- Moderate <br> 4- Severe <br> 5- Very Severe <br>  |
 | reflux_lying_down_pagi | Regurgitation of reflux (fluid of liquid from your stomach coming up into your throat) when lying down | 0- None <br> 1- Very mild <br> 2- Mild <br>3- Moderate <br> 4- Severe <br> 5- Very Severe <br>  |
 | bitter_pagi | Bitter, acid or sour taste in your mouth |  0- None <br> 1- Very mild <br> 2- Mild <br>3- Moderate <br> 4- Severe <br> 5- Very Severe <br>  |
-| completion_pagi |  Completion of the 'PAGI-SYM' form | 0- Incomplete <br> 1- Unverified <br> 2- Complete |
+| completion_pagi |  Completion of the 'PAGI-SYM' form? | 0- Incomplete <br> 1- Unverified <br> 2- Complete |
 | domain_nausea_pagi | Score for domain: nausea or vomiting |  |
 | domain_fullness_pagi | Score for domain: post-prandial fullness or early satiety |  |
 | domain_bloating_pagi | Score for domain: bloating |  |
@@ -80,15 +80,15 @@
 | unable_to_move_sdsc | The child feels unable to move when waking up in the morning | 1- Never <br> 2- Occasionally(Once or twice per month or less) <br> 3- Sometimes(once or twice per month or less) <br> 4- Often(3 or 5 times per week) <br> 5- Always(daily) |
 | somnolence_sdsc | The child experiences daytime somnolence | \- 1- Never <br> 2- Occasionally(Once or twice per month or less) <br> 3- Sometimes(once or twice per month or less) <br> 4- Often(3 or 5 times per week) <br> 5- Always(daily) |
 | inapp_fall_asleep_sdsc | The child falls asleep suddenly in inappropriate situations | 1- Never <br> 2- Occasionally(Once or twice per month or less) <br> 3- Sometimes(once or twice per month or less) <br> 4- Often(3 or 5 times per week) <br> 5- Always(daily) |
-| completion_sdsc | Completion of the 'SDSC' form | 0- Incomplete <br> 1- Unverified <br> 2- Complete |
-| DIMS_sdsc | Score for domain: Disorders of initiating and maintaining sleep | |
-| SBD_sdsc | Score for domain: Sleep Breathing Disorders | |
-| DA_sdsc | Score for domain: Disorders of arousal | |
-| SWTD_sdsc | Score for domain: Sleep-Wake Transition Disorders | |
-| DOES_sdsc | Score for domain: Disorders of excessive somnolence | |
-| SHY_sdsc | Score for domain: Sleep Hyperhydrosis | |
-| TOTAL_sdsc | Score for domain: Total score | |
-| T_score_sdsc | Final score (out of 100) | |
+| completion_sdsc | Completion of the 'SDSC' form? | 0- Incomplete <br> 1- Unverified <br> 2- Complete |
+| dims_sdsc | Score for domain: Disorders of initiating and maintaining sleep | |
+| sbd_sdsc | Score for domain: Sleep Breathing Disorders | |
+| da_sdsc | Score for domain: Disorders of arousal | |
+| swtd_sdsc | Score for domain: Sleep-Wake Transition Disorders | |
+| does_sdsc | Score for domain: Disorders of excessive somnolence | |
+| shy_sdsc | Score for domain: Sleep Hyperhydrosis | |
+| total_sdsc | Score for domain: Total score | |
+| t_score_sdsc | Final score (out of 100) | |
 
 
 #### <span id="table_3">3. Pittsburgh Sleep Quality Index (PSQI)</span>
@@ -123,7 +123,7 @@
 | twitching_psqi | If you have a roommate or bed partner, ask him/her how often in the past month you have had legs twitching or jerking while you sleep |  0- Not during the past month <br> 1- Less than once a week <br> 2- Once or twice a week <br> 3- Three or more times a week | 
 | confusion_psqi | If you have a roommate or bed partner, ask him/her how often in the past month you have had episodes of disorientation or confusion during sleep | 0- Not during the past month <br> 1- Less than once a week <br> 2- Once or twice a week <br> 3- Three or more times a week | 
 | other_restlessness_psqi | If there is other restlessness while you sleep, Please describe here |
-| completion_psqi | Completion of the 'PSQI' form | 0- Incomplete <br> 1- Unverified <br> 2- Complete |
+| completion_psqi | Completion of the 'PSQI' form? | 0- Incomplete <br> 1- Unverified <br> 2- Complete |
 | component1_score_psqi | Score for domain: subjective sleep quality | |
 | component2_score_psqi | Score for domain: sleep latency | |
 | component3_score_psqi | Score for domain: sleep duration | |
@@ -142,7 +142,7 @@
 | survey_date_bsc | Survey date | mm/dd/yyyy |
 | location_bsc | Survey location | 1- Emory University <br> 2- Augusta University |
 | stool_type_bsc | Patient stool type | 0- Type 1<br /> 1- Type 2<br /> 2- Type 3<br /> 3- Type 4<br /> 4- Type 5<br /> 5- Type 6<br /> 6- Type 7 |
-| completion_bsc | survey completion | 0- Incomplete <br /> 1- Unverified<br /> 2- Complete |
+| completion_bsc | Completion of the 'BSC' form? | 0- Incomplete <br /> 1- Unverified<br /> 2- Complete |
 
 
 
@@ -181,7 +181,7 @@
 | satisfied_reg_pac_qol | Satisfied with the regularity of your bowel movements? | 0- Not at all<br /> 1- A little bit<br /> 2- Moderately<br /> 3- Quite a bit<br /> 4- Extremely |
 | satisfied_time_pac_qol | Satisfied with the time it takes for food to pass through the intestines? | 0- Not at all<br /> 1- A little bit<br /> 2- Moderately<br /> 3- Quite a bit<br /> 4- Extremely |
 | satisfied_treat_pac_qol | Satisfied with your treatment? | 0- Not at all<br /> 1- A little bit<br /> 2- Moderately<br /> 3- Quite a bit<br /> 4- Extremely |
-| completion_pac_qol | Complete? | 0- Incomplete <br /> 1- Unverified <br /> 2- Complete |
+| completion_pac_qol | Completion of the 'PAC-QOL' form? | 0- Incomplete <br /> 1- Unverified <br /> 2- Complete |
 | mean_physical_discomfort_score | Score for domain: Physical discomfort | |
 | mean_psychosocial_discomfort_score | Score for domain: Psychosocial discomfort | |
 | mean_worry_concern_score | Score for domain: Worries and concerns | |
@@ -208,7 +208,7 @@
 | bowel_movement_small_pacsym | Bowel movements that were too small |  0- Absent<br /> 1- Mild<br /> 2- Moderate<br /> 3- Severe<br /> 4- Very severe<br /> |
 | straining_bowel_movement_pacsym | Straining or squeezing to try to pass bowel movements |  0- Absent<br /> 1- Mild<br /> 2- Moderate<br /> 3- Severe<br /> 4- Very severe<br /> |
 | bowel_movement_false_alarm_pacsym | Feeling like you had to pass a bowel movement but you couldn't (false alarm) |  0- Absent<br /> 1- Mild<br /> 2- Moderate<br /> 3- Severe<br /> 4- Very severe<br /> |
-| completion_pacsym | Complete |  0-  Incomplete <br /> 1-  Unverified <br /> 2-  Complete |
+| completion_pacsym | Completion of the 'PAC-SYM' form? |  0-  Incomplete <br /> 1-  Unverified <br /> 2-  Complete |
 | domain_abdominal_pacsym | Score for domain: abdominal symptoms | |
 | domain_rectal_pacsym | Score for domain: rectal symptoms | |
 | domain_stool_pacsym | Score for domain: stool symptoms | |
@@ -257,7 +257,7 @@
 | other_list_bev | Other \- |  |
 | other_often_bev | Other - How often? | 0- Never or less than 1 time per week<br /> 1- 1 time per week<br />2- 2-3 times per week<br />3- 4-6 times per week<br />4- 1 time per day<br /> 5- 2+ times per day<br />6- 3+ times per day |
 | other_amt_bev | Other - How much each time? | 0- Less than 6 fl oz (3/4 cup)<br /> 1- 8 fl oz (1 cup)<br /> 2- 12 fl oz (1 1/2 cups)<br />3- 16 fl oz (2 cups)<br />4- More than 20 fl oz (2 1/2 cups)<br /> |
-| completion_bev | complete | \- Incomplete <br />\- Unverified <br />\- Complete |
+| completion_bev | Completion of the 'BEVQ-15' form? | \- Incomplete <br />\- Unverified <br />\- Complete |
 | ssb_floz | Average daily sugar sweetened beverages (fluid oz) | |
 | ssb_kcal | Average daily calories from sugar sweetened beverages  | |
 | ssb_gm | Average daily sugar sweetened beverages (grams) | |
