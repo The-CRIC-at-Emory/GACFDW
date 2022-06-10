@@ -5,8 +5,8 @@
  - [Sleep Disturbances Scale for Children (SDSC)](#table_2)
  - [Pittsburgh Sleep Quality Index (PSQI)](#table_3)
  - [Bristol Stool Chart (BSC)](#table_4)
- - [Patient Assessment Of Constipation (PAC-QOL)](#table_5)
- - [Patient Assessment Of Constipation (PAC-SYM)](#table_6)
+ - [Patient Assessment of Constipation (PAC-QOL)](#table_5)
+ - [Patient Assessment of Constipation (PAC-SYM)](#table_6)
  - [Beverage Questionnaire (BEVQ-15)](#table_7)
 
 
@@ -146,12 +146,12 @@
 
 
 
-#### <span id="table_5">5. Patient Assessment Of Constipation (PAC-QOL)</span>
+#### <span id="table_5">5. Patient Assessment of Constipation (PAC-QOL)</span>
 
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
 | cfbr_id | CF-BR number of patient |
-| survey_date_pacqol | Constipation Survey date | yyyy-mm-dd |
+| survey_date_pacqol | Survey date | yyyy-mm-dd |
 | location_pacqol | Survey location |1- Emory University <br> 2- Augusta University |
 | bloated_pac_qol | Felt bloated to the point of bursting? | 0- Not at all<br /> 1- A little bit<br /> 2- Moderately<br /> 3- Quite a bit<br /> 4- Extremely |
 | heavy_constipation_pac_qol | Felt heavy because of your constipation? | 0- Not at all<br /> 1- A little bit<br /> 2- Moderately<br /> 3- Quite a bit<br /> 4- Extremely |
@@ -189,13 +189,13 @@
 | total_score_pac_qol | Overall score | |
 
 
-#### <span id="table_6">6. Patient Assessment Of Constipation (PAC-SYM)</span>
+#### <span id="table_6">6. Patient Assessment of Constipation (PAC-SYM)</span>
 
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
 | cfbr_id | CF-BR number of patient |
+| survey_date_pacsym | Survey date | yyyy-mm-dd |
 | location_pacsym | Survey location |  1- Emory University <br> 2- Augusta University |
-| todays_date_pacsym | todays'date | yyyy-mm-dd |
 | discomfort_abdomen_pacsym | Discomfort in your abdomen |  0- Absent<br /> 1- Mild<br /> 2- Moderate<br /> 3- Severe<br /> 4- Very severe<br /> |
 | pain_abdomen_pacsym | Bloating in your abdomen |  0- Absent<br /> 1- Mild<br /> 2- Moderate<br /> 3- Severe<br /> 4- Very severe<br /> |
 | stomach_cramps_pacsym | Stomach cramps |  0- Absent<br /> 1- Mild<br /> 2- Moderate<br /> 3- Severe<br /> 4- Very severe<br /> |
