@@ -15,6 +15,7 @@
 | cfbr_id | CF-BR number of patient |  |
 | port_cf_id | Port CF ID || 
 | name | Name || 
+| enrollment_location | Enrollment Location | 1- Emory University <br> 2- Augusta University | 
 | medical_record_mrn_EPIC | Medical Record MRN#: EPIC | 0: False <br> 1: True | 
 | medical_record_mrn_Powerchart | Medical Record MRN#: Powerchart | 0: False <br> 1: True | 
 | epic_mrn | EPIC MRN# || 
