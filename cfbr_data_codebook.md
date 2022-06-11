@@ -132,7 +132,7 @@
 | start_date_of_iv_antibiotics | IV Antibiotics Start Date | yyyy-mm-dd |
 | iv_antiobiotics_end_date | IV Antibiotics End Date | yyyy-mm-dd |
 | microbiology_performed_on | Microbiology performed on day of Collection |  0:  No <br> 1:  Yes|
-| recent_sputum_micro_MSSA | Sputum Microbiology MSSA | 0:  False <br> 1:  True  |
+| recent_sputum_micro_mssa | Sputum Microbiology MSSA | 0:  False <br> 1:  True  |
 | recent_sputum_micro_MRSA | Sputum Microbiology MRSA | 0:  False <br> 1:  True  |
 | recent_sputum_micro_Pseudomonas_aeruginosa | Sputum Microbiology Pseudomonas aeruginosa | 0:  False <br> 1:  True  |
 | recent_sputum_micro_Aspergillus_fumigatus | Sputum Microbiology Aspergillus fumigatus | 0:  False <br> 1:  True  |
