@@ -133,13 +133,13 @@
 | iv_antiobiotics_end_date | IV Antibiotics End Date | yyyy-mm-dd |
 | microbiology_performed_on | Microbiology performed on day of Collection |  0:  No <br> 1:  Yes|
 | recent_sputum_micro_mssa | Sputum Microbiology MSSA | 0:  False <br> 1:  True  |
-| recent_sputum_micro_MRSA | Sputum Microbiology MRSA | 0:  False <br> 1:  True  |
-| recent_sputum_micro_Pseudomonas_aeruginosa | Sputum Microbiology Pseudomonas aeruginosa | 0:  False <br> 1:  True  |
-| recent_sputum_micro_Aspergillus_fumigatus | Sputum Microbiology Aspergillus fumigatus | 0:  False <br> 1:  True  |
-| recent_sputum_micro_Stenotrophomonas_maltophilia | Sputum Microbiology Stenotrophomonas maltophilia | 0:  False <br> 1:  True  |
-| recent_sputum_micro_Mycobacterium_abcessus | Sputum Microbiology Mycobacterium abcessus | 0:  False <br> 1:  True  |
-| recent_sputum_micro_Mycobacterium_avium_complex | Sputum Microbiology Mycobacterium avium complex | 0:  False <br> 1:  True  |
-| recent_sputum_micro_Normal_Flora | Sputum Microbiology Normal Flora | 0:  False <br> 1:  True  |
+| recent_sputum_micro_mrsa | Sputum Microbiology MRSA | 0:  False <br> 1:  True  |
+| recent_sputum_micro_pseudomonas_aeruginosa | Sputum Microbiology Pseudomonas aeruginosa | 0:  False <br> 1:  True  |
+| recent_sputum_micro_aspergillus_fumigatus | Sputum Microbiology Aspergillus fumigatus | 0:  False <br> 1:  True  |
+| recent_sputum_micro_stenotrophomonas_maltophilia | Sputum Microbiology Stenotrophomonas maltophilia | 0:  False <br> 1:  True  |
+| recent_sputum_micro_mycobacterium_abcessus | Sputum Microbiology Mycobacterium abcessus | 0:  False <br> 1:  True  |
+| recent_sputum_micro_mycobacterium_avium_complex | Sputum Microbiology Mycobacterium avium complex | 0:  False <br> 1:  True  |
+| recent_sputum_micro_normal_flora | Sputum Microbiology Normal Flora | 0:  False <br> 1:  True  |
 | recent_sputum_micro_other | Other Sputum Microbiology | 0:  False <br> 1:  True  |
 | microbiology_if_other | If other microbiology, specify |  |
 | crf_comments | Comments? |  |
