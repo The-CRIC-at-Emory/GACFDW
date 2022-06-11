@@ -71,22 +71,22 @@
 | aliquot_id | Aliquot ID ||
 | sample_type | Sample Type | 1: Bacterial Isolate <br> 2: Bacterial pellet <br> 3: BAL <br> 4: BAL (with proteinase inhibitor) <br> 5: BAL homogenate <br> 6: Blood: Plasma <br> 7: Blood: Serum <br> 8: Blood: Whole <br> 9: EBC <br> 10: Nasal polyp tissue <br> 11: Nasal Scrape <br> 12: None <br> 13: Sputum, unprocessed/whole <br> 14: Sputum homogenate <br> 15: Sputum supernatant without complete <br> 16: Sputum Supernatant with complete <br> 17: Throat Swab <br> 18: Tracheal Aspirate <br> 19: Micro Purity Plate <br> 20: Saliva <br> 21: Stool |
 | collected_during_ogtt | Collected During OGTT | 1: Yes <br> 2: No |
-| ogtt_time_points_Fasting | OGTT Time Points: Fasting | 0: False <br> 1: True |
+| ogtt_time_points_fasting | OGTT Time Points: Fasting | 0: False <br> 1: True |
 | ogtt_time_points_30_minutes | OGTT Time Points: 30 Minutes | 0: False <br> 1: True |
 | ogtt_time_points_60_minutes | OGTT Time Points: 60 Minutes | 0: False <br> 1: True |
-| ogtt_time_points_2_Hours | OGTT Time Points: 2 Hours | 0: False <br> 1: True |
-| ogtt_time_points_Other | OGTT Time Points: Other | 0: False <br> 1: True |
+| ogtt_time_points_2_hours | OGTT Time Points: 2 Hours | 0: False <br> 1: True |
+| ogtt_time_points_other | OGTT Time Points: Other | 0: False <br> 1: True |
 | other_time_point | Other OGTT Time Point ||
 | paired_samples | Paired Samples | 1: Yes <br> 0: No |
-| paired_samples_collected_Plasma | Paired Samples Collected: Plasma | 0: False <br> 1: True |
-| paired_samples_collected_Serum | Paired Samples Collected: Serum | 0: False <br> 1: True |
-| paired_samples_collected_EBC | Paired Samples Collected: EBC | 0: False <br> 1: True |
-| paired_samples_collected_Nasal_Cells | Paired Samples Collected: Nasal Cells | 0: False <br> 1: True |
-| paired_samples_collected_Sputum | Paired Samples Collected: Sputum | 0: False <br> 1: True |
-| paired_samples_collected_Bacterial_Isolates | Paired Samples Collected: Bacterial Isolates | 0: False <br> 1: True |
-| paired_samples_collected_BAL | Paired Samples Collected: BAL | 0: False <br> 1: True |
-| paired_samples_collected_Saliva | Paired Samples Collected: Saliva |0: False <br> 1: True |
-| paired_samples_collected_Stool | Paired Samples Collected: Stool |0: False <br> 1: True |
+| paired_samples_collected_plasma | Paired Samples Collected: Plasma | 0: False <br> 1: True |
+| paired_samples_collected_serum | Paired Samples Collected: Serum | 0: False <br> 1: True |
+| paired_samples_collected_ebc | Paired Samples Collected: EBC | 0: False <br> 1: True |
+| paired_samples_collected_nasal_Cells | Paired Samples Collected: Nasal Cells | 0: False <br> 1: True |
+| paired_samples_collected_sputum | Paired Samples Collected: Sputum | 0: False <br> 1: True |
+| paired_samples_collected_bacterial_Isolates | Paired Samples Collected: Bacterial Isolates | 0: False <br> 1: True |
+| paired_samples_collected_bal | Paired Samples Collected: BAL | 0: False <br> 1: True |
+| paired_samples_collected_saliva | Paired Samples Collected: Saliva |0: False <br> 1: True |
+| paired_samples_collected_stool | Paired Samples Collected: Stool |0: False <br> 1: True |
 | volume | Volume ||
 | units | Units | 1: μl <br> 2: ml |
 | box | Box ||
