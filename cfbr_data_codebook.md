@@ -12,7 +12,7 @@
 
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
-| record_id | Record ID ||  
+| cfbr_id | CF-BR number of patient |  |
 | port_cf_id | Port CF ID || 
 | name | Name || 
 | medical_record_mrn_EPIC | Medical Record MRN#: EPIC | 0: False <br> 1: True | 
@@ -61,7 +61,7 @@
 
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
-| record_id | Record ID ||  
+| cfbr_id | CF-BR number of patient |  |
 | invoice_req | Invoice Required? | 0: No <br> 1: Yes |
 | samples_soldyn | Has this aliquot been sold? | 0: No <br> 1: Yes |
 | samples_location | Select the recipient | 1: Assem Ziady <br> 2: Balazs Rada <br> 3: Bijean - Tirouvanzium <br> 4: Camilla - Tirouvanzium <br> 5: Osric - Tirouvanziam <br> 6: Chicago <br> 7: Facundo Fernandez <br> 8: John Varga - Goldberg <br> 9: Joshua Chandler - Jones Lab <br> 10: Kostas Konstantinidis <br> 11: Koval Lab <br> 12: Rabin Tirouvanziam <br> 13: Sam - Koval lab <br> 14: Samer Naffouje (U IL) <br> 15: Spyryx/Matt Walker <br> 16: Stauffer/McCarty <br> 17: Susu Zughaier <br> 18: Tangpricha <br> 19: Theresa Gauthier <br> 20: William R. Hunt <br> 21: Wu/McCarty <br> 22: Christopher LaRock <br> 23: Marvin Whiteley <br> 24: Other (Please email Julie with details) <br> 25: Steve Diggle <br> 26: Andres Garcia <br> 27: Joanna Goldberg <br> 28: Sam Brown <br> 29: Malinda Wu <br> 30: Eric Sorscher Lab <br> 31: Dario Dilernia <br> 32: Sample lost |
@@ -102,7 +102,7 @@
 
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
-| record_id | Record ID of CFBR patients |
+| cfbr_id | CF-BR number of patient |  |
 | collection_date | Collection Date |yyyy-mm-dd |
 | collection_site | Collection Site | 1: ECC <br> 2: Egleston Hospital<br> 3: Emory Adult CF Clinic<br> 4: Emory Children's Center<br> 5: Emory Pediatric CF Clinic <br> 6: EU Hospital<br> 7: Scottish Rite Clinic<br> 8: Scottish Rite Hospital<br> 9: CAP |
 | visit_type | Visit Type | 1:  Clinic <br> 2:  Hospital <br>3:  Procedure <br> 4:  Research Study |
@@ -150,7 +150,7 @@
 #### <span id="table_4">4. Bacterial Isolates</span>
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
-| record_id | CF-BR record|  |
+| cfbr_id | CF-BR number of patient |  |
 | isolate_id | Identification of Isolates | 1:  Pseudomonas aeruginosa <br> 2:  Stenotrophomonas maltophilia <br>3:  MSSA <br>4:  MRSA <br>5:  Achromobacter xylosoxidans <br>6:  Burkholderia cepacia complex <br>7:  Haemophilus influenzae <br>8:  Aspergillus fumigatus <br>9:  Mycobacterium abscessus (MAB) <br>10: Mycobacterium avium complex (MAC) <br>11: Other|
 | identification_of_pseudomo_mucoid | Pseudomonas aeruginosa Phenotype:Mucoid | 0:  False <br> 1:  True |
 | identification_of_pseudomo_non_mucoid | Pseudomonas aeruginosa Phenotype: Non-Mucoid | 0:  False <br> 1:  True |
@@ -285,7 +285,7 @@
 #### <span id="table_5">5. Glucose Status and OGTT Results</span>
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
-| record_id | CF-BR record|  |
+| cfbr_id | CF-BR number of patient |  |
 | conversion_to_cfrd | Conversion to CFRD | 0:  No <br> 1:  Yes|
 | conversion_date | Conversion Date | yyyy-mm-dd |
 | type_of_ogtt | OGTT Type | 1:  Clinical <br> 1:  Research |
