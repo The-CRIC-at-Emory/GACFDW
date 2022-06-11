@@ -63,7 +63,7 @@
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
 | cfbr_id | CF-BR number of patient |  |
-| invoice_req | Invoice Required? | 0: No <br> 1: Yes |
+| invoice_req | Invoice Reqμred? | 0: No <br> 1: Yes |
 | samples_soldyn | Has this aliquot been sold? | 0: No <br> 1: Yes |
 | samples_location | Select the recipient | 1: Assem Ziady <br> 2: Balazs Rada <br> 3: Bijean - Tirouvanzium <br> 4: Camilla - Tirouvanzium <br> 5: Osric - Tirouvanziam <br> 6: Chicago <br> 7: Facundo Fernandez <br> 8: John Varga - Goldberg <br> 9: Joshua Chandler - Jones Lab <br> 10: Kostas Konstantinidis <br> 11: Koval Lab <br> 12: Rabin Tirouvanziam <br> 13: Sam - Koval lab <br> 14: Samer Naffouje (U IL) <br> 15: Spyryx/Matt Walker <br> 16: Stauffer/McCarty <br> 17: Susu Zughaier <br> 18: Tangpricha <br> 19: Theresa Gauthier <br> 20: William R. Hunt <br> 21: Wu/McCarty <br> 22: Christopher LaRock <br> 23: Marvin Whiteley <br> 24: Other (Please email Julie with details) <br> 25: Steve Diggle <br> 26: Andres Garcia <br> 27: Joanna Goldberg <br> 28: Sam Brown <br> 29: Malinda Wu <br> 30: Eric Sorscher Lab <br> 31: Dario Dilernia <br> 32: Sample lost |
 | date_coll_sampl | Date Collected ||
@@ -297,31 +297,31 @@
 |alternate_study_id | ALTERNATE STUDY ID |  |
 |date_of_research_ogtt | Date of research | yyyy-mm-dd |
 |ogtt_glu_minus_30 | Timepoint -30min (Baseline) |  |
-|ogtt_ins_minus_30 | Insulin (uIU/mL) |  |
+|ogtt_ins_minus_30 | Insulin (μU/mL) |  |
 |ogtt_cpep_minus_30 | C-peptide (ng/mL) |  |
 |ogtt_glu_minus_15 | Glucose (mg/dL) |  |
 |ogtt_ins_minus_15 | Timepoint -15min (Baseline) |  |
 |ogtt_cpep_minus_15 | C-peptide (ng/mL) |  |
 |ogtt_glu_base_res | Glucose (mg/dL) |  |
-|ogtt_ins_base | Insulin (uIU/mL) |  |
+|ogtt_ins_base | Insulin (μU/mL) |  |
 |ogtt_cpep_base | C-peptide (ng/mL) |  |
 |ogtt_glu_10 | Glucose (mg/dL) |  |
-|ogtt_ins_10 | Insulin (uIU/mL) |  |
+|ogtt_ins_10 | Insulin (μU/mL) |  |
 |ogtt_cpep_10 | C-peptide (ng/mL) |  |
 |ogtt_glu_20 | Glucose (mg/dL) |  |
-|ogtt_ins_20 | Insulin (uIU/mL) |  |
+|ogtt_ins_20 | Insulin (μU/mL) |  |
 |ogtt_cpep_20 | C-peptide (ng/mL) |  |
 |ogtt_glu_30 | Glucose (mg/dL) |  |
-|ogtt_ins_30 | Insulin (uIU/mL) |  |
+|ogtt_ins_30 | Insulin (μU/mL) |  |
 |ogtt_cpep_30 | C-peptide (ng/mL) |  |
 |ogtt_glu_60 | Glucose (mg/dL) |  |
-|ogtt_ins_60 | Insulin (uIU/mL) |  |
+|ogtt_ins_60 | Insulin (μU/mL) |  |
 |ogtt_cpep_60 | C-peptide (ng/mL) |  |
 |ogtt_glu_90 | Glucose (mg/dL) |  |
-|ogtt_ins_90 | Insulin (uIU/mL) |  |
+|ogtt_ins_90 | Insulin (μU/mL) |  |
 |ogtt_cpep_90 | C-peptide (ng/mL) |  |
 |ogtt_glu_120 | Glucose (mg/dL) |  |
-|ogtt_ins_120 | Insulin (uIU/mL) |  |
+|ogtt_ins_120 | Insulin (μU/mL) |  |
 |ogtt_cpep_120 | C-peptide (ng/mL) |  |
 |ogtt_comments | comments |  |
 |ogtt_complete | Complete? | 0:  Incomplete <br> 1:  Unverified <br> 2:  Complete <br> |
