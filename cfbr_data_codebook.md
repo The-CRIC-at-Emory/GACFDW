@@ -254,17 +254,17 @@
 | was_susceptibility_for_mac | Was susceptibility for MAC performed? | 1:  Yes <br> 2:  No <br> |
 | beta_lactamase | Beta Lactamase | 1:  Positive <br>2:  Negative <br> |
 | microorganisms | Microorganisms | 1:  Single Isolate <br> 2:  Co-cultured <br> |
-| microorganisms_MSSA | MSSA | 0:  False <br> 1:  True  |
-| microorganisms_MRSA | MRSA | 0:  False <br> 1:  True  |
-| microorganisms_Pseudomonas_aeruginosa | Pseudomonas aeruginosa | 0:  False <br> 1:  True  |
-| microorganisms_Stenotrophomonas | Stenotrophomonas | 0:  False <br> 1:  True  |
-| microorganisms_Aspergillus | Aspergillus | 0:  False <br> 1:  True  |
-| microorganisms_Mycobacterium_abcessus | Mycobacterium abcessus | 0:  False <br> 1:  True  |
-| microorganisms_Mycobacterium_avium_complex_MAC | Mycobacterium avium complex MAC | 0:  False <br> 1:  True  |
-| microorganisms_Achromobacter_xylosoxidans | Achromobacter xylosoxidans |0:  False <br> 1:  True   |
-| microorganisms_Burkholderia_cepaciacomplex | Burkholderia cepaciacomplex | 0:  False <br> 1:  True  |
-| microorganisms_Haemophilus_influenzae | Haemophilus influenzae | 0:  False <br> 1:  True  |
-| microorganisms_Other | if others, please specify |  |
+| microorganisms_mssa | MSSA | 0:  False <br> 1:  True  |
+| microorganisms_mrsa | MRSA | 0:  False <br> 1:  True  |
+| microorganisms_pseudomonas_aeruginosa | Pseudomonas aeruginosa | 0:  False <br> 1:  True  |
+| microorganisms_stenotrophomonas | Stenotrophomonas | 0:  False <br> 1:  True  |
+| microorganisms_aspergillus | Aspergillus | 0:  False <br> 1:  True  |
+| microorganisms_mycobacterium_abcessus | Mycobacterium abcessus | 0:  False <br> 1:  True  |
+| microorganisms_mycobacterium_avium_complex_mac | Mycobacterium avium complex MAC | 0:  False <br> 1:  True  |
+| microorganisms_achromobacter_xylosoxidans | Achromobacter xylosoxidans |0:  False <br> 1:  True   |
+| microorganisms_burkholderia_cepaciacomplex | Burkholderia cepaciacomplex | 0:  False <br> 1:  True  |
+| microorganisms_haemophilus_influenzae | Haemophilus influenzae | 0:  False <br> 1:  True  |
+| microorganisms_other | if others, please specify |  |
 | pseudomonas_aeruginosa_co_mucoid | Pseudomonas aeruginosa co-culture Phenotype:mucoid | 0:  False <br> 1:  True  |
 | pseudomonas_aeruginosa_co_non_mucoid | Pseudomonas aeruginosa co-culture Phenotype:non-mucoid | 0:  False <br> 1:  True  |
 | pseudomonas_aeruginosa_co_unknown | Pseudomonas aeruginosa co-culture Phenotype:unknown | 0:  False <br> 1:  True  |
