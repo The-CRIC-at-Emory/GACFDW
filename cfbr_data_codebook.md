@@ -12,8 +12,8 @@
 
 | Variable Name | Details | Values |
 | :---- | :---- | :---- |
-| cfbr_id | CF-BR number of patient |  |
-| port_cf_id | Port CF ID || 
+| cfbr_id | CF-BR number of patient CFBR-EM/AU-XXXX |  |
+| port_cf_id | PortCF ID || 
 | name | Name || 
 | enrollment_location | Enrollment Location | 1- Emory University <br> 2- Augusta University | 
 | medical_record_mrn_EPIC | Medical Record MRN#: EPIC | 0: False <br> 1: True | 
