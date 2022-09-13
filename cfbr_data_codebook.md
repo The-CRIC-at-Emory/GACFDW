@@ -153,61 +153,51 @@
 | :---- | :---- | :---- |
 | cfbr_id | CF-BR number of patient |  |
 | isolate_id | Identification of Isolates | 1:  Pseudomonas aeruginosa <br> 2:  Stenotrophomonas maltophilia <br>3:  MSSA <br>4:  MRSA <br>5:  Achromobacter xylosoxidans <br>6:  Burkholderia cepacia complex <br>7:  Haemophilus influenzae <br>8:  Aspergillus fumigatus <br>9:  Mycobacterium abscessus (MAB) <br>10: Mycobacterium avium complex (MAC) <br>11: Other|
-| identification_of_pseudomo_mucoid | Pseudomonas aeruginosa Phenotype:Mucoid | 0:  False <br> 1:  True |
-| identification_of_pseudomo_non_mucoid | Pseudomonas aeruginosa Phenotype: Non-Mucoid | 0:  False <br> 1:  True |
-| identification_of_pseudomo_unknown | Pseudomonas aeruginosa Phenotype:Unknown | 0:  False <br> 1:  True |
+lab_distributing_isolate |  Lab Distributing Isolate | 1: Clinical lab <br> 2: Investigator lab | 
+investigator_lab | Investigator Lab | 1: Steve Diggle <br> 2: Joanna Goldberg <br> 3: Marvin Whiteley <br> 4: Sam Brown <br> 5: Sheyda Azimi <br> 6: Paul Turner |
+variant_id | Variant ID | 
+| identification_of_pseudomo | Pseudomonas aeruginosa Phenotype | 1:  mucoid <br> 2:  non-mucoid |
 | muc_pa_amikacin | Mucoid Pseudomonas aeruginosa susceptibility Amikacin |  1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested|
 | nonmuc_pa_amikacin | Non-mucoid Pseudomonas aeruginosa susceptibility Amikacin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | achro_xylo_amikacin | Achromobacter xylosoxidans susceptibility Amikacin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | mab_amikacin | Mycobacterium abscessus susceptibility Amikacin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | mac_amikacin | Mycobacterium avium complex (MAC) Susceptibility Amikacin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
-| unk_pa_amikacin | Unknown Mucoid Pseudomonas aeruginosa susceptibility Amikacin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | muc_pa_aztreonam | Mucoid Pseudomonas aeruginosa susceptibility Aztreonam | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | nonmuc_pa_aztreonam | Non-mucoid Pseudomonas aeruginosa susceptibility Aztreonam | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | achro_xylo_aztreonam | Achromobacter xylosoxidans Susceptibility Aztreonam | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
-| unk_pa_aztreonam | Unknown Mucoid Pseudomonas aeruginosa susceptibility Aztreonam | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | muc_pa_cefepime | Mucoid Pseudomonas aeruginosa susceptibility Cefepime |  1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested|
 | achro_xylo_cefepime | Achromobacter xylosoxidans Cefepime | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | nonmuc_pa_cefepime | Non-mucoid Pseudomonas aeruginosa susceptibility Cefepime | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | mab_cefepime | Mycobacterium abscessus Susceptibility Cefepime | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
-| unk_pa_cefepime | Unknown Mucoid Pseudomonas aeruginosa susceptibility Cefepime | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | muc_pa_ceftazidime | Mucoid Pseudomonas aeruginosa susceptibility Ceftazidime | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | nonmuc_pa_ceftazidime | Non-mucoid Pseudomonas aeruginosa susceptibility Ceftazidime | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | steno_ceftazidime | Stenotrophomonas maltophilia Susceptibility Ceftazidime | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | achro_xylo_ceftazidime | Achromobacter xylosoxidans Susceptibility eftazidime | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | burk_cep_ceftazidime | Burkholderia cepacia complex Susceptibility Ceftazidime | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
-| unk_pa_ceftazidime | Unknown Mucoid Pseudomonas aeruginosa susceptibility Ceftazidime | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | muc_pa_colistin | Mucoid Pseudomonas aeruginosa susceptibility Colistin |1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested  |
 | nonmuc_pa_colistin | Non-mucoid Pseudomonas aeruginosa susceptibility Colistin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
-| unk_pa_colistin | Unknown Mucoid Pseudomonas aeruginosa susceptibility Colistin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | muc_pa_gentamicin | Mucoid Pseudomonas aeruginosa susceptibility Gentamicin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | nonmuc_pa_gentamicin | Non-mucoid Pseudomonas aeruginosa susceptibility Gentamicin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | achro_xylo_gentamicin | Achromobacter xylosoxidans Susceptibility Gentamicin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | mab_gentamicin | Mycobacterium abscessus Susceptibility Gentamicin |  1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested|
-| unk_pa_gentamicin | Unknown Mucoid Pseudomonas aeruginosa susceptibility Gentamicin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | muc_pa_imipenem | Mucoid Pseudomonas aeruginosa susceptibility Imipenem |  1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested|
 | nonmuc_pa_imipenem | Non-mucoid Pseudomonas aeruginosa susceptibility Imipenem | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | mab_imipenem | Mycobacterium abscessus Susceptibility Imipenem | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
-| unk_pa_imipenem | Unknown Mucoid Pseudomonas aeruginosa susceptibility Imipenem | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | muc_pa_levofloxacin | Mucoid Pseudomonas aeruginosa susceptibility Levofloxacin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | nonmuc_pa_levofloxacin | Non-mucoid Pseudomonas aeruginosa susceptibility Levofloxacin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | steno_levofloxacin | Stenotrophomonas maltophilia Susceptibility Levofloxacin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | achro_xylo_levofloxacin | Achromobacter xylosoxidans Susceptibility Levofloxacin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | burk_cep_levofloxacin | Burkholderia cepacia complex Susceptibility Levofloxacin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
-| unk_pa_levofloxacin | Unknown Mucoid Pseudomonas aeruginosa susceptibility Levofloxacin |  1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested|
 | muc_pa_meropenem | Mucoid Pseudomonas aeruginosa susceptibility Meropenem | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | nonmuc_pa_meropenem | Non-mucoid Pseudomonas aeruginosa susceptibility Meropenem |1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | achro_xylo_meropenem | Achromobacter xylosoxidans Susceptibility Meropenem |  1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested|
 | burk_cep_meropenem | Burkholderia cepacia complex Susceptibility Meropenem | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
-| unk_pa_meropenem | Unknown Mucoid Pseudomonas aeruginosa susceptibility Meropenem | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | muc_pa_piper_tazobac | Mucoid Pseudomonas aeruginosa susceptibility Tazobac | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | nonmuc_pa_piper_tazobac | Non-mucoid Pseudomonas aeruginosa susceptibility Tazobac | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | achro_xylo_piper_tazobac | Achromobacter xylosoxidans Susceptibility Tazobac | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
-| unk_pa_piper_tazobac | Unknown Mucoid Pseudomonas aeruginosa susceptibility Tazobac | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | muc_pa_tobramycin | Mucoid Pseudomonas aeruginosa susceptibility Tobramycin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | nonmuc_pa_tobramycin | Non-mucoid Pseudomonas aeruginosa susceptibility Tobramycin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | achro_xylo_tobramycin | Achromobacter xylosoxidans Susceptibility Tobramycin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
-| unk_pa_tobramycin | Unknown Mucoid Pseudomonas aeruginosa susceptibility Tobramycin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | sa_clindamycin | Staphylococcus aureas Susceptibility Clindamycin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | sa_erythromycin | Staphylococcus aureas Susceptibility Erythromycin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | sa_linezolid | Staphylococcus aureas Susceptibility Linezolid | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
@@ -233,7 +223,6 @@
 | nonmuc_pa_ciprofloxacin | Non-mucoid Pseudomonas aeruginosa susceptibility Ciprofloxacin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | mab_ciprofloxacin | Mycobacterium abscessus Susceptibility Ciprofloxacin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | mac_ciprofloxacin | Mycobacterium avium complex (MAC) Susceptibility Ciprofloxacin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
-| unk_pa_ciprofloxacin | Unknown Mucoid Pseudomonas aeruginosa susceptibility Ciprofloxacin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | mab_clarithromycin | Mycobacterium abscessus Susceptibility Clarithromycin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | mac_clarithromycin | Mycobacterium avium complex (MAC) Susceptibility Clarithromycin | 1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested |
 | mab_clofazamine | Mycobacterium abscessus Susceptibility Clofazamine |1:  Susceptible <br>2:  Intermediate <br>3:  Resistant <br>4:  Not Tested  |
@@ -265,7 +254,8 @@
 | microorganisms_achromobacter_xylosoxidans | Achromobacter xylosoxidans |0:  False <br> 1:  True   |
 | microorganisms_burkholderia_cepaciacomplex | Burkholderia cepaciacomplex | 0:  False <br> 1:  True  |
 | microorganisms_haemophilus_influenzae | Haemophilus influenzae | 0:  False <br> 1:  True  |
-| microorganisms_other | if others, please specify |  |
+| microorganisms_other | Other | 0:  False <br> 1:  True  |
+| other_organism | Other Organism | |
 | pseudomonas_aeruginosa_co_mucoid | Pseudomonas aeruginosa co-culture Phenotype:mucoid | 0:  False <br> 1:  True  |
 | pseudomonas_aeruginosa_co_non_mucoid | Pseudomonas aeruginosa co-culture Phenotype:non-mucoid | 0:  False <br> 1:  True  |
 | pseudomonas_aeruginosa_co_unknown | Pseudomonas aeruginosa co-culture Phenotype:unknown | 0:  False <br> 1:  True  |
