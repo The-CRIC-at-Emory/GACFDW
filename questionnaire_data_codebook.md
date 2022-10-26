@@ -81,14 +81,14 @@
 | somnolence_sdsc | The child experiences daytime somnolence | \- 1- Never <br> 2- Occasionally(Once or twice per month or less) <br> 3- Sometimes(once or twice per month or less) <br> 4- Often(3 or 5 times per week) <br> 5- Always(daily) |
 | inapp_fall_asleep_sdsc | The child falls asleep suddenly in inappropriate situations | 1- Never <br> 2- Occasionally(Once or twice per month or less) <br> 3- Sometimes(once or twice per month or less) <br> 4- Often(3 or 5 times per week) <br> 5- Always(daily) |
 | completion_sdsc | Completion of the 'SDSC' form? | 0- Incomplete <br> 1- Unverified <br> 2- Complete |
-| dims_sdsc | Score for domain: Disorders of initiating and maintaining sleep | |
-| sbd_sdsc | Score for domain: Sleep Breathing Disorders | |
-| da_sdsc | Score for domain: Disorders of arousal | |
-| swtd_sdsc | Score for domain: Sleep-Wake Transition Disorders | |
-| does_sdsc | Score for domain: Disorders of excessive somnolence | |
-| shy_sdsc | Score for domain: Sleep Hyperhydrosis | |
-| total_sdsc | Score for domain: Total score | |
-| t_score_sdsc | Final score (out of 100) | |
+| dims | Score for domain: Disorders of initiating and maintaining sleep | |
+| sbd | Score for domain: Sleep Breathing Disorders | |
+| da | Score for domain: Disorders of arousal | |
+| swtd | Score for domain: Sleep-Wake Transition Disorders | |
+| does | Score for domain: Disorders of excessive somnolence | |
+| shy | Score for domain: Sleep Hyperhydrosis | |
+| total | Score for domain: Total score | |
+| t_score | Final score (out of 100) | |
 
 
 #### <span id="table_3">3. Pittsburgh Sleep Quality Index (PSQI)</span>
