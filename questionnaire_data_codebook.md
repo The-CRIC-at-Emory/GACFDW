@@ -124,14 +124,14 @@
 | confusion_psqi | If you have a roommate or bed partner, ask him/her how often in the past month you have had episodes of disorientation or confusion during sleep | 0- Not during the past month <br> 1- Less than once a week <br> 2- Once or twice a week <br> 3- Three or more times a week | 
 | other_restlessness_psqi | If there is other restlessness while you sleep, Please describe here |
 | completion_psqi | Completion of the 'PSQI' form? | 0- Incomplete <br> 1- Unverified <br> 2- Complete |
-| component1_score_psqi | Score for domain: subjective sleep quality | |
-| component2_score_psqi | Score for domain: sleep latency | |
-| component3_score_psqi | Score for domain: sleep duration | |
-| component4_score_psqi | Score for domain: habitual sleep efficiency | |
-| component5_score_psqi | Score for domain: step disturbances | |
-| component6_score_psqi | Score for domain: use of sleeping medication | |
-| component7_score_psqi | Score for domain: daytime dysfunction | |
-| global_score_psqi | global PSQI score | |
+| component1 | Score for domain: subjective sleep quality | |
+| component2 | Score for domain: sleep latency | |
+| component3 | Score for domain: sleep duration | |
+| component4 | Score for domain: habitual sleep efficiency | |
+| component5 | Score for domain: step disturbances | |
+| component6 | Score for domain: use of sleeping medication | |
+| component7 | Score for domain: daytime dysfunction | |
+| total | global PSQI score | |
 
 
 #### <span id="table_4">4. Bristol Stool Chart (BSC)</span>
@@ -182,11 +182,11 @@
 | satisfied_time_pac_qol | Satisfied with the time it takes for food to pass through the intestines? | 0- Not at all<br /> 1- A little bit<br /> 2- Moderately<br /> 3- Quite a bit<br /> 4- Extremely |
 | satisfied_treat_pac_qol | Satisfied with your treatment? | 0- Not at all<br /> 1- A little bit<br /> 2- Moderately<br /> 3- Quite a bit<br /> 4- Extremely |
 | completion_pac_qol | Completion of the 'PAC-QOL' form? | 0- Incomplete <br /> 1- Unverified <br /> 2- Complete |
-| mean_phy_dis_pac_qol | Mean score for domain: Physical discomfort | |
-| mean_psy_dis_pac_qol | Mean score for domain: Psychosocial discomfort | |
-| mean_wor_con_pac_qol | Mean score for domain: Worries and concerns | |
-| mean_sat_pac_qol | Mean score for domain: Satisfaction | |
-| total_score_pac_qol | Overall score | |
+| domain_physical_discomfort | Mean score for domain: Physical discomfort | |
+| domain_phychosocial_discomfort | Mean score for domain: Psychosocial discomfort | |
+| domain_worries_and_concerns | Mean score for domain: Worries and concerns | |
+| domain_satisfaction | Mean score for domain: Satisfaction | |
+| total | Overall score | |
 
 
 #### <span id="table_6">6. Patient Assessment of Constipation (PAC-SYM)</span>
