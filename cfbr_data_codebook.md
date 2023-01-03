@@ -6,6 +6,7 @@
  - [CRF](#table_3)
  - [Bacterial Isolates](#table_4)
  - [Glucose Status and OGTT Results](#table_5)
+ - [CGM-CRF](#table_6)
 
 
 #### <span id="table_1">1. Enrollment</span>
@@ -335,3 +336,16 @@ variant_id | Variant ID |
 |ogtt_cpep_120 | C-peptide (ng/mL) |  |
 |ogtt_comments | comments |  |
 |ogtt_complete | Complete? | 0:  Incomplete <br> 1:  Unverified <br> 2:  Complete <br> |
+
+#### <span id="table_6">5. CGM CRF</span>
+| Variable Name | Details | Values |
+| :---- | :---- | :---- |
+| cfbr_id | CF-BR number of patient |  |
+| cgm_alt_study_id | Alternate Study ID |  |
+| cgm_start_date | CGM Start Date | yyyy-mm-dd |
+| cgm_end_date | CGM Removal Date | yyyy-mm-dd |
+| no_of_days_cgm_worn | Number of Days with 24 hours of Data | 0: 0 <br> 1: 1 <br> 2: 2 <br> 3: 3 <br> 4: 4 <br> 5: 5 <br> 6: 6 <br> 7: 7 <br> 8: 8 <br> 9: 9 <br> 10: 10 <br> |
+| was_cgm_placed_during_ogtt | Placed during OGTT? | 1:  Yes <br> 0:  No <br> |
+| cgm_date_of_ogtt | Date of OGTT |  |
+| cgm_comments | comments |  |
+| cgm_crf_complete | Complete? | 0:  Incomplete <br> 1:  Unverified <br> 2:  Complete <br> |
