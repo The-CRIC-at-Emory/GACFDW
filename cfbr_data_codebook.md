@@ -285,12 +285,145 @@ variant_id | Variant ID |
 | date_culture_finalized | Date Culture Finalized | yyyy-mm-dd  |
 | date_isolate_collected | Date Isolate Collected | yyyy-mm-dd  |
 | clinical_status | Clinical Status | 1:  Clinically Stable <br>2:  APE Outpatient <br>3:  APE IV Antibiotics <br>4:  Indeterminate |
-| bi_iv_antibiotics_start | IV Antibiotics Start Date | yyyy-mm-dd  |
-| bi_iv_antibiotics_end | IV Antibiotics End Date | yyyy-mm-dd  |
 | freezer | Freezer Location | 1: Emory Children s Center (ECC)<br>2:  Hiller Lab at Center for Advanced Pediatrics(CAP) <br>3:  Chantilly Lab (NDH)  |
 | aliquot_id | Aliquot ID |  |
 | isolate_box_number | Box |  |
 | isolate_well_location | Well Location |  |
+| aminoglycoside_rx | Aminoglycoside Prescribed? | 1: Yes <br> 2: No <br> |
+| specific_aminoglycoside | Aminoglycosides | 1: Amikacin <br> 2: Gentamicin <br> 3: Streptomycin <br> 4: Tobramycin |
+| aminoglycoside_route_intravenous | Aminoglycoside Administration Route: Intravenous? | 0: False <br> 1: True |
+| aminoglycoside_route_oral | Aminoglycoside Administration Route: Oral? | 0: False <br> 1: True |
+| aminoglycoside_route_inhaled | Aminoglycoside Administration Route: Inhaled? | 0: False <br> 1: True |
+| aminoglycoside_start_date | Aminoglycoside Start Date | yyyy-mm-dd |
+| aminoglycoside_end_date | Aminoglycoside End Date | yyyy-mm-dd |
+| antifungal_rx | Antifungal Prescribed? | 1: Yes <br> 2: No <br> |
+| specific_antifungal | Antifungals | 1: Amphotericin <br> 2: Fluconazole <br> 3: Voriconazole |
+| antifungal_route_intravenous | Antifungal Administration Route: Intravenous? | 0: False <br> 1: True |
+| antifungal_route_oral | Antifungal Administration Route: Oral? | 0: False <br> 1: True |
+| antifungal_route_inhaled | Antifungal Administration Route: Inhaled? | 0: False <br> 1: True |
+| antifungal_start_date | Antifungal Start Date | yyyy-mm-dd |
+| antifungal_end_date | Antifungal End Date | yyyy-mm-dd |
+| carbapenem_rx | Carbapenem Prescribed? | 1: Yes <br> 2: No <br> |
+| specific_carbapenem | Carbapenems | 1: Imipenem + Cylastatine (Primaxin) <br> 2: Meropenem |
+| carbapenem_route_intravenous | Carbapenem Administration Route: Intravenous? | 0: False <br> 1: True |
+| carbapenem_route_oral | Carbapenem Administration Route: Oral? | 0: False <br> 1: True |
+| carbapenem_route_inhaled | Carbapenem Administration Route: Inhaled? | 0: False <br> 1: True |
+| carbapenem_start_date | Carbapenem Start Date | yyyy-mm-dd |
+| carbapenem_end_date | Carbapenem End Date | yyyy-mm-dd |
+| cephalosporin_rx | Cephalosporin Prescribed? | 1: Yes <br> 2: No <br> |
+| specific_cephalosporin | Cephalosporins | 1: Cefaclor <br> 2: Cefazolin <br> 3: Cefdinir <br> 4: Cefepime <br> 5: Cefixime <br> 6: Cefotaxime <br> 7: Cefoxitin <br> 8: Cefprozil (Cefzil) <br> 9: Ceftaroline <br> 10: Ceftazidime <br> 11: Ceftizoxime <br> 12: Ceftriaxone <br> 13: Cefuroxime <br> 14: Cefphalexine (Keflex) |
+| cephalosporin_route_intravenous | Cephalosporin Administration Route: Intravenous? | 0: False <br> 1: True |
+| cephalosporin_route_oral | Cephalosporin Administration Route: Oral? | 0: False <br> 1: True |
+| cephalosporin_route_inhaled | Cephalosporin Administration Route: Inhaled? | 0: False <br> 1: True |
+| cephalosporin_start_date | Cephalosporin Start Date | yyyy-mm-dd |
+| cephalosporin_end_date | Cephalosporin End Date | yyyy-mm-dd |
+| fluoroquinolone_rx | Fluoroquinolone Prescribed? | 1: Yes <br> 2: No <br> |
+| specific_fluoroquinolone | Fluoroquinolones | 1: Ciprofloxacin <br> 2: Levofloxacin <br> 3: Ofloxacin <br> 4: Moxifloxacin |
+| fluoroquinolone_route_intravenous | Fluoroquinolone Administration Route: Intravenous? | 0: False <br> 1: True |
+| fluoroquinolone_route_oral | Fluoroquinolone Administration Route: Oral? | 0: False <br> 1: True |
+| fluoroquinolone_route_inhaled | Fluoroquinolone Administration Route: Inhaled? | 0: False <br> 1: True |
+| fluoroquinolone_start_date | Fluoroquinolone Start Date | yyyy-mm-dd |
+| fluoroquinolone_end_date | Fluoroquinolone End Date | yyyy-mm-dd |
+| lincosamide_rx | Lincosamide Prescribed? | 1: Yes <br> 2: No <br> |
+| specific_lincosamide | Lincosamides | 1: Clindamycin <br> 2: Lincomycin |
+| lincosamide_route_intravenous | Lincosamide Administration Route: Intravenous? | 0: False <br> 1: True |
+| lincosamide_route_oral | Lincosamide Administration Route: Oral? | 0: False <br> 1: True |
+| lincosamide_route_inhaled | Lincosamide Administration Route: Inhaled? | 0: False <br> 1: True |
+| lincosamide_start_date | Lincosamide Start Date | yyyy-mm-dd |
+| lincosamide_end_date | Lincosamide End Date | yyyy-mm-dd |
+| macrolide_rx | Macrolide Prescribed? | 1: Yes <br> 2: No <br> |
+| specific_macrolide | Macrolides | 1: Azithromycin <br> 2: Clarithromycin <br> 3: Erythromycin |
+| macrolide_route_intravenous | Macrolide Administration Route: Intravenous? | 0: False <br> 1: True |
+| macrolide_route_oral | Macrolide Administration Route: Oral? | 0: False <br> 1: True |
+| macrolide_route_inhaled | Macrolide Administration Route: Inhaled? | 0: False <br> 1: True |
+| macrolide_start_date | Macrolide Start Date | yyyy-mm-dd |
+| macrolide_end_date | Macrolide End Date | yyyy-mm-dd |
+| penicillin_rx | Penicillin Prescribed? | 1: Yes <br> 2: No <br> |
+| specific_penicillin | Penicillins | 1: Amoxicillin, Amoxicillin + Clavulanic acid (Augmentin) <br> 2: Ampicillin <br> 3: Carbenicillin <br> 4: Dicloxacillin <br> 5: Nafcillin <br> 6: Oxacillin <br> 7: Piperacillin <br> 8: Piperacillin + Tazobactam (Zosyn) <br> 9: Ticarcillin |
+| penicillin_route_intravenous | Penicillin Administration Route: Intravenous? | 0: False <br> 1: True |
+| penicillin_route_oral | Penicillin Administration Route: Oral? | 0: False <br> 1: True |
+| penicillin_route_inhaled | Penicillin Administration Route: Inhaled? | 0: False <br> 1: True |
+| penicillin_start_date | Penicillin Start Date | yyyy-mm-dd |
+| penicillin_end_date | Penicillin End Date | yyyy-mm-dd |
+| tetracyclin_rx | Tetracyclin Prescribed? | 1: Yes <br> 2: No <br> |
+| specific_tetracyclin | Tetracyclins | 1: Doxycycline <br> 2: Minocycline <br> 3: Tetracyclin <br> 4: Tigecyclin |
+| tetracyclin_route_intravenous | Tetracyclin Administration Route: Intravenous? | 0: False <br> 1: True |
+| tetracyclin_route_oral | Tetracyclin Administration Route: Oral? | 0: False <br> 1: True |
+| tetracyclin_route_inhaled | Tetracyclin Administration Route: Inhaled? | 0: False <br> 1: True |
+| tetracyclin_start_date | Tetracyclin Start Date | yyyy-mm-dd |
+| tetracyclin_end_date | Tetracyclin End Date | yyyy-mm-dd |
+| aztreonam_rx | Aztreonam Prescribed? | 1: Yes <br> 2: No <br> |
+| aztreonam_route_intravenous | Aztreonam Administration Route: Intravenous? | 0: False <br> 1: True |
+| aztreonam_route_oral | Aztreonam Administration Route: Oral? | 0: False <br> 1: True |
+| aztreonam_route_inhaled | Aztreonam Administration Route: Inhaled? | 0: False <br> 1: True |
+| aztreonam_start_date | Aztreonam Start Date | yyyy-mm-dd |
+| aztreonam_end_date | Aztreonam End Date | yyyy-mm-dd |
+| ceftaz_avibact_rx | Ceftazidime/Avibactam Prescribed? | 1: Yes <br> 2: No <br> |
+| ceftaz_avibact_route_intravenous | Ceftazidime/Avibactam Administration Route: Intravenous? | 0: False <br> 1: True |
+| ceftaz_avibact_route_oral | Ceftazidime/Avibactam Administration Route: Oral? | 0: False <br> 1: True |
+| ceftaz_avibact_route_inhaled | Ceftazidime/Avibactam Administration Route: Inhaled? | 0: False <br> 1: True |
+| ceftaz_avibact_start_date | Ceftazidime/Avibactam Start Date | yyyy-mm-dd |
+| ceftaz_avibact_end_date | Ceftazidime/Avibactam End Date | yyyy-mm-dd |
+| chloramphenicol_rx | Chloramphenicol Prescribed? | 1: Yes <br> 2: No <br> |
+| chloramphenicol_route_intravenous | Chloramphenicol Administration Route: Intravenous? | 0: False <br> 1: True |
+| chloramphenicol_route_oral | Chloramphenicol Administration Route: Oral? | 0: False <br> 1: True |
+| chloramphenicol_route_inhaled | Chloramphenicol Administration Route: Inhaled? | 0: False <br> 1: True |
+| chloramphenicol_start_date | Chloramphenicol Start Date | yyyy-mm-dd |
+| chloramphenicol_end_date | Chloramphenicol End Date | yyyy-mm-dd |
+| colistin_rx | Colistin Prescribed? | 1: Yes <br> 2: No <br> |
+| colistin_route_intravenous | Colistin Administration Route: Intravenous? | 0: False <br> 1: True |
+| colistin_route_oral | Colistin Administration Route: Oral? | 0: False <br> 1: True |
+| colistin_route_inhaled | Colistin Administration Route: Inhaled? | 0: False <br> 1: True |
+| colistin_start_date | Colistin Start Date | yyyy-mm-dd |
+| colistin_end_date | Colistin End Date | yyyy-mm-dd |
+| ethambutol_rx | Ethambutol Prescribed? | 1: Yes <br> 2: No <br> |
+| ethambutol_route_intravenous | Ethambutol Administration Route: Intravenous? | 0: False <br> 1: True |
+| ethambutol_route_oral | Ethambutol Administration Route: Oral? | 0: False <br> 1: True |
+| ethambutol_route_inhaled | Ethambutol Administration Route: Inhaled? | 0: False <br> 1: True |
+| ethambutol_start_date | Ethambutol Start Date | yyyy-mm-dd |
+| ethambutol_end_date | Ethambutol End Date | yyyy-mm-dd |
+| isoniazid_rx | Isoniazid Prescribed? | 1: Yes <br> 2: No <br> |
+| isoniazid_route_intravenous | Isoniazid Administration Route: Intravenous? | 0: False <br> 1: True |
+| isoniazid_route_oral | Isoniazid Administration Route: Oral? | 0: False <br> 1: True |
+| isoniazid_route_inhaled | Isoniazid Administration Route: Inhaled? | 0: False <br> 1: True |
+| isoniazid_start_date | Isoniazid Start Date | yyyy-mm-dd |
+| isoniazid_end_date | Isoniazid End Date | yyyy-mm-dd |
+| linezolid_rx | Linezolid Prescribed? | 1: Yes <br> 2: No <br> |
+| linezolid_route_intravenous | Linezolid Administration Route: Intravenous? | 0: False <br> 1: True |
+| linezolid_route_oral | Linezolid Administration Route: Oral? | 0: False <br> 1: True |
+| linezolid_route_inhaled | Linezolid Administration Route: Inhaled? | 0: False <br> 1: True |
+| linezolid_start_date | Linezolid Start Date | yyyy-mm-dd |
+| linezolid_end_date | Linezolid End Date | yyyy-mm-dd |
+| polymyxin_b_rx | Polymyxin B Prescribed? | 1: Yes <br> 2: No <br> |
+| polymyxin_b_route_intravenous | Polymyxin B Administration Route: Intravenous? | 0: False <br> 1: True |
+| polymyxin_b_route_oral | Polymyxin B Administration Route: Oral? | 0: False <br> 1: True |
+| polymyxin_b_route_inhaled | Polymyxin B Administration Route: Inhaled? | 0: False <br> 1: True |
+| polymyxin_b_start_date | Polymyxin B Start Date | yyyy-mm-dd |
+| polymyxin_b_end_date | Polymyxin B End Date | yyyy-mm-dd |
+| rifabutin_rx | Rifabutin Prescribed? | 1: Yes <br> 2: No <br> |
+| rifabutin_route_intravenous | Rifabutin Administration Route: Intravenous? | 0: False <br> 1: True |
+| rifabutin_route_oral | Rifabutin Administration Route: Oral? | 0: False <br> 1: True |
+| rifabutin_route_inhaled | Rifabutin Administration Route: Inhaled? | 0: False <br> 1: True |
+| rifabutin_start_date | Rifabutin Start Date | yyyy-mm-dd |
+| rifabutin_end_date | Rifabutin End Date | yyyy-mm-dd |
+| rifampin_rx | Rifampin Prescribed? | 1: Yes <br> 2: No <br> |
+| rifampin_route_intravenous | Rifampin Administration Route: Intravenous? | 0: False <br> 1: True |
+| rifampin_route_oral | Rifampin Administration Route: Oral? | 0: False <br> 1: True |
+| rifampin_route_inhaled | Rifampin Administration Route: Inhaled? | 0: False <br> 1: True |
+| rifampin_start_date | Rifampin Start Date | yyyy-mm-dd |
+| rifampin_end_date | Rifampin End Date | yyyy-mm-dd |
+| bactrim_rx | Trimethoprim + Sulfamethoxazole (Bactrim) Prescribed? | 1: Yes <br> 2: No <br> |
+| bactrim_route_intravenous | Bactrim Administration Route: Intravenous? | 0: False <br> 1: True |
+| bactrim_route_oral | Trimethoprim + Sulfamethoxazole (Bactrim) Administration Route: Oral? | 0: False <br> 1: True |
+| bactrim_route_inhaled | Trimethoprim + Sulfamethoxazole (Bactrim) Administration Route: Inhaled? | 0: False <br> 1: True |
+| bactrim_start_date | Trimethoprim + Sulfamethoxazole (Bactrim) Start Date | yyyy-mm-dd |
+| bactrim_end_date | Trimethoprim + Sulfamethoxazole (Bactrim) End Date | yyyy-mm-dd |
+| vancomycin_rx | Vancomycin Prescribed? | 1: Yes <br> 2: No <br> |
+| vancomycin_route_intravenous | Vancomycin Administration Route: Intravenous? | 0: False <br> 1: True |
+| vancomycin_route_oral | Vancomycin Administration Route: Oral? | 0: False <br> 1: True |
+| vancomycin_route_inhaled | Vancomycin Administration Route: Inhaled? | 0: False <br> 1: True |
+| vancomycin_start_date | Vancomycin Start Date | yyyy-mm-dd |
+| vancomycin_end_date | Vancomycin End Date | yyyy-mm-dd |
 | notes | Notes |  |
 | bacterial_isolates_complete | Complete? | 0:  Incomplete <br> 1:  Unverified <br> 2:  Complete <br> |
 
