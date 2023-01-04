@@ -72,7 +72,7 @@
 | trikafta_start_date | Approximate Elexacaftor / Tezacaftor / Ivacaftor Start Date |  |
 | trikafta_end_date | Approximate Elexacaftor / Tezacaftor / Ivacaftor End Date |  |
 | trikafta_ongoing | Ongoing? | 0: False <br> 1: True |
-| current_status | Current Status | 1: Alive <br> 2: Deceased <br> 3: Moved <br> 4: Withdrawn |
+| current_status | Current Status | 1: Alive <br> 2: Deceased <br> 3: Moved <br> 4: Withdrawn <br> 5: Post Lung Transplant |
 | comments | Comments ||
 | enrollment_complete | Complete? | 1: Incomplete <br> 2: Unverified <br> 3: Complete |
 
