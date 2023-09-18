@@ -113,6 +113,7 @@
 | paired_samples_collected_bal | Paired Samples Collected: BAL | 0: False <br> 1: True |
 | paired_samples_collected_saliva | Paired Samples Collected: Saliva |0: False <br> 1: True |
 | paired_samples_collected_stool | Paired Samples Collected: Stool |0: False <br> 1: True |
+| paired_samples_collected_throat_swab | Paired Samples Collected: Throat Swab |0: False <br> 1: True |
 | volume | Volume ||
 | units | Units | 1: μl <br> 2: ml |
 | box | Box ||
