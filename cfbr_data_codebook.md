@@ -145,6 +145,7 @@
 | specimen_collected_bronchial_brushings | Specimen Collected is Bronchial Brushings | 0:  False <br>1:  True <br> |
 | specimen_collected_saliva | Specimen Collected is Saliva | 0:  False <br>1:  True <br> |
 | specimen_collected_stool| Specimen Collected is Stool | 0:  False <br>1:  True <br> |
+| specimen_collected_throat_swab | Specimen Collected is Throat Swab | 0:  False <br>1:  True <br> |
 | time_of_specimen_collection | Time of Blood Collection |  |
 | time_of_sputum_collection | Time of Expectorated Sputum Collection |  |
 | time_of_induced_sputum_collection | Time of Induced Sputum Collection |  |
@@ -154,6 +155,7 @@
 | time_of_bronchial_brushing | Time of Bronchial Brushing Sample Collection |  |
 | time_of_saliva | Time of Saliva Sample Collection |  |
 | time_of_stool | Time of Stool Sample Collection |  |
+| time_of_throat_swab | Time of Throat Swab Sample Collection |  |
 | current_clinical_status | Current Clinical Status <br> Clinically Stable = no increase in symptoms, lung exam at baseline, FEV1 w/ 5% of baseline, no new antibiotic therapy of any kind in response to symptoms or tests, no change in standard CF regimen for +/- 21 days.<br> APE Outpatient = subject is experiencing increase in symptoms and/or drop in lung function 5-10% from baseline; prescribed outpatient oral antibiotics. <br> APE IV Antibiotics = increased symptoms and/or drop in lung function greater than 10% below baseline. Subject is admitted to hospital for IV antibiotic treatment or subject is placed on Home IV antibiotics for treatment of exacerbation. <br> Indeterminate = unable to determine clinical status. Consult physician to determine clinical status. | 1:  Clinically Stable <br> 2:  APE Outpatient <br> 3:  APE IV Antibiotics <br> 4:  Indeterminate  |
 | start_date_of_iv_antibiotics | IV Antibiotics Start Date | yyyy-mm-dd |
 | iv_antiobiotics_end_date | IV Antibiotics End Date | yyyy-mm-dd |
