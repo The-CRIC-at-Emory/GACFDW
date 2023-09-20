@@ -477,6 +477,21 @@ variant_id | Variant ID |
 |ogtt_cpep_120 | C-peptide (ng/mL) |  |
 |ogtt_comments | comments |  |
 |ogtt_complete | Complete? | 0:  Incomplete <br> 1:  Unverified <br> 2:  Complete <br> |
+| homair | HOMA-IR |  |
+| wbisi | WBISI (whole-body insulin sensitivity index) |  |
+| reverse_fast_insulin_pmol_l | 1_insulin (pM-1) |  |
+| igi_i | Insulinogenic Index (µU/mmol) |  |
+| homab | HOMA-β% |  |
+| isc | Insulin secretion (pmol/mmol) |  |
+| odi_mat | Oral Disposition Index Matsuda  |  |
+| odi_mer | Oral Disposition Index Merjaneh (mM-1) |  |
+| auc_ins | Area under the curve for insulin (pmol*min/L)  |  |
+| auc_glu | Area under the curve for glucose (mmol*min/L) |  |
+| auc_cpep | Area under the curve for c-peptide (nmol*min/L) |  |
+| iauc_ins | Incremental area under the curve for insulin  (pmol*min/L) |  |
+| iauc_glu | Incremental area under the curve for glucose (mmol*min/L) |  |
+| iauc_cpep | Incremental area under the curve for c-peptide (nmol*min/L) |  |
+
 
 #### <span id="table_6">5. CGM CRF</span>
 | Variable Name | Details | Values |
